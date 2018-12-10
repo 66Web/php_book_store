@@ -1,0 +1,84 @@
+.webfx-tree-container {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; font: icon; padding-top: 0px; white-space: nowrap
+}
+.webfx-tree-item {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; font: icon; color: windowtext; padding-top: 0px; white-space: nowrap; height: 16px
+}
+.webfx-tree-item a {
+	padding-right: 2px; padding-left: 2px; padding-bottom: 1px; margin-left: 3px; padding-top: 0px
+}
+.webfx-tree-item a:active {
+	padding-right: 2px; padding-left: 2px; padding-bottom: 1px; margin-left: 3px; padding-top: 0px
+}
+.webfx-tree-item a:hover {
+	padding-right: 2px; padding-left: 2px; padding-bottom: 1px; margin-left: 3px; padding-top: 0px
+}
+.webfx-tree-item a {
+	color: black; text-decoration: none
+}
+.webfx-tree-item a:hover {
+	color: blue; text-decoration: underline
+}
+.webfx-tree-item a:active {
+	background: highlight; color: highlighttext; text-decoration: none
+}
+.webfx-tree-item img {
+	border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; vertical-align: middle; border-right-width: 0px
+}
+.webfx-tree-icon {
+	width: 16px; height: 16px
+}
+.webfx-treetext {
+	color: #666666
+}
+.webfx-menu {
+	box-sizing: content-box; moz-box-sizing: content-box
+}
+.webfx-menu {
+	box-sizing: content-box; moz-box-sizing: content-box
+}
+.webfx-menu {
+	border-right: #999999 1px solid; padding-right: 1px; border-top: #999999 1px solid; padding-left: 1px; z-index: 100; background: #f1f1f1; filter: progid:dximagetransform.microsoft.shadow(color="#777777", direction=135, strength=4); visibility: hidden; padding-bottom: 1px; border-left: #999999 1px solid; width: 150px; padding-top: 1px; border-bottom: #999999 1px solid; position: absolute
+}
+.webfx-menu-empty {
+	border-right: white 1px solid; padding-right: 5px; border-top: white 1px solid; display: block; padding-left: 5px; font-size: 11px; border-left: white 1px solid; color: black; border-bottom: white 1px solid; font-family: tahoma, verdan, helvetica, sans-serfif; height: 16px; ; height: expression(18)
+}
+.webfx-menu a {
+	border-right: #f1f1f1 1px solid; padding-right: 5px; border-top: #f1f1f1 1px solid; display: block; padding-left: 5px; font-size: 12px; overflow: hidden; border-left: #f1f1f1 1px solid; color: black; padding-top: 2px; border-bottom: #f1f1f1 1px solid; font-family: tahoma, verdan, helvetica, sans-serfif; height: 22px; text-decoration: none
+}
+.webfx-menu a:visited {
+	color: black; text-decoration: none
+}
+.webfx-menu a:hover {
+	color: black; text-decoration: none
+}
+.webfx-menu a:hover {
+	border-right: #999999 1px solid; border-top: #999999 1px solid; background: #cccccc; border-left: #999999 1px solid; color: black; border-bottom: #999999 1px solid; text-decoration: none
+}
+.webfx-menu a .arrow {
+	border-top-width: 0px; border-left-width: 0px; float: right; border-bottom-width: 0px; width: 3px; margin-right: 2px; height: 16px; border-right-width: 0px
+}
+.webfx-menu div {
+	border-top: #999999 1px solid; font-size: 0mm; margin: 2px 0px; overflow: hidden; height: 0px; ; height: expression(2)
+}
+.webfx-menu-bar {
+	padding-right: 2px; padding-left: 2px; font-size: 11px; background: rgb(120,172,255); padding-bottom: 2px; padding-top: 2px; font-family: verdana, helvetica, sans-serif
+}
+.webfx-menu-bar a {
+	border-right: rgb(120,172,255) 1px solid; padding-right: 5px; border-top: rgb(120,172,255) 1px solid; padding-left: 5px; padding-bottom: 1px; border-left: rgb(120,172,255) 1px solid; color: black; padding-top: 1px; border-bottom: rgb(120,172,255) 1px solid; ; height: expression(/msie 5.0/.test(navigator.useragent) ? "17px" : "auto"); text-decoration: none
+}
+.webfx-menu-bar a:visited {
+	border-right: rgb(120,172,255) 1px solid; padding-right: 5px; border-top: rgb(120,172,255) 1px solid; padding-left: 5px; padding-bottom: 1px; border-left: rgb(120,172,255) 1px solid; color: black; padding-top: 1px; border-bottom: rgb(120,172,255) 1px solid; ; height: expression(/msie 5.0/.test(navigator.useragent) ? "17px" : "auto"); text-decoration: none
+}
+.webfx-menu-bar a:hover {
+	border-right: rgb(0,66,174) 1px solid; border-top: rgb(234,242,255) 1px solid; background: rgb(120,172,255); border-left: rgb(234,242,255) 1px solid; color: black; border-bottom: rgb(0,66,174) 1px solid; text-decoration: none
+}
+.webfx-menu-bar a .arrow {
+	border-top-width: 0px; border-left-width: 0px; float: none; border-bottom-width: 0px; border-right-width: 0px
+}
+.webfx-menu-bar a:active {
+	moz-outline: none; outline: none
+}
+.webfx-menu-bar a:unknown {
+	moz-outline: none; outline: none
+}

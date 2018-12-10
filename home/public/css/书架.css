@@ -1,0 +1,41 @@
+.shu{
+	margin-left: 160px;
+	margin-top: 20px;
+	float:left;
+	
+}
+.lii{
+	width: 200px;
+	height: 300px;
+	background: url(../img/书背景.png) no-repeat;
+	float: left;
+	margin-left: 50px;
+}
+img{
+	width: 150px;
+	height: auto;
+	margin: 25px;
+}
+.zong{
+	height:100px;
+	width: auto;
+}
+p{
+	font-family: "黑体";	
+	text-align: center;
+	margin: 0;
+}
+h4{
+	font-family: "黑体";	
+	text-align: center;
+	margin: 0;
+	padding-top: 15px;
+}
+button{
+	font-family: "黑体";	
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 60px;
+}
+
+

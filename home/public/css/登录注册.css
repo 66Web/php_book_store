@@ -1,0 +1,115 @@
+.denglubiaodan{
+	background:url(../img/登录背景.jpg) no-repeat center;
+	width: 850px;
+	height: 500px;
+	margin-left: 250px;
+	margin-top: 58px;
+	
+}
+.inputname{
+	width: 200px;
+	height: 28px;
+	margin-left: 555px;
+	margin-top: 200px;
+	border: none;
+	outline: none;
+}
+.inputpas{
+	width: 200px;
+	height: 28px;
+	margin-left: 555px;
+	margin-top: 41px;
+	border: none;
+	outline: none;
+}
+input::-webkit-input-placeholder{
+            color: #8D8B8B;
+            font-family: "黑体";
+        }
+        input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+            color: #8D8B8B;
+            font-family: "黑体";
+        }
+        input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+            color: #8D8B8B;
+            font-family: "黑体";
+        }
+        input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+            color: #8D8B8B;
+            font-family: "黑体";
+        }
+/*.bt-denglu{
+	margin-left: 500px;
+	margin-top: 35px;
+	width: 265px;
+	height:36px ;
+	background: transparent;
+	border: none;
+}*/
+#lgbtn{
+	margin-left: 540px;
+	margin-top: 39px;
+	width: 265px;
+	height:36px ;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+.zhuce{
+	float: right;
+	margin-right: 148px;
+	margin-top: 10px;
+	font-family: "黑体";
+	font-size: 14px;
+	
+}
+.bt-zhuce{
+	color: #8D8B8B;
+	text-decoration:none;
+}
+.bt-wangji{
+	color: #8D8B8B;
+	text-decoration:none;
+	margin-left: 50px;
+}
+
+.bg{
+	background: url(../img/注册背景.png) no-repeat center;
+	width: 850px;
+	height: 500px;
+	margin-left: 250px;
+	margin-top: 58px;
+}
+#register{
+	margin-left: 530px;
+	padding-top: 120px;
+}
+#regbtn{
+	position: absolute;
+	left: 62%;
+	top: 81%;
+	width: 265px;
+	height:36px ;
+	background: transparent;
+	border: none;
+	color: #FFFFFF;
+	font-family: "黑体";
+	font-size: 16px;
+	cursor: pointer;
+}
+#regname{
+	width: 200px;
+	height: 25px;
+}
+#regpwd1{
+	width: 200px;
+	height: 25px;
+}
+#regpwd2{
+	width: 200px;
+	height: 25px;
+}
+#realname{
+	width: 200px;
+	height: 25px;
+}

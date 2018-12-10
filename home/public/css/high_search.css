@@ -1,0 +1,23 @@
+#search{
+	width:800px;
+	height:35px;
+	margin: 20px auto;
+}
+input{
+	background: #FFFFFF;
+	border: 2px solid #01AFBE;
+	width:300px;
+	height: 35px;
+	outline: none;
+}
+.btn-search{
+	width: 100px;
+	height: 35px;
+	background: #01AFBE;
+	border:none;
+	color: #FFFFFF;
+	font-family: "黑体";
+	font-size: 14px;
+	outline: none;
+	cursor:pointer;	
+}

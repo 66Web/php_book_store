@@ -1,0 +1,41 @@
+.foot{
+	width: 100%;
+	height: 100px;
+	float: left;
+}
+.foot-bg{
+	width: 100%;
+	height:auto;
+	margin-top:40px;
+	display: block;
+}
+.foot1{
+	font-family: "黑体";
+	color:#01afbe;;
+	font-size: 12px;
+	position: absolute;
+	margin-top:-50px;
+	left: 36%;
+}
+.foot2{
+	font-family: "黑体";
+	font-size: 12px;
+	margin-left: 0px;
+	position: absolute;
+	left: 36.5%;
+	margin-top: -30px;
+}
+.foot2 ul{
+        	list-style-type:none;    	
+        }
+        .foot2 li{
+        	display: inline;
+        	float: none;
+        	color: #01afbe;
+        }
+        .foot2 li a{
+        	color: #01afbe;
+        }
+		.foot2 nav{
+			text-align: center;
+		}

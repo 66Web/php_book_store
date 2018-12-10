@@ -1,0 +1,21 @@
+.leader{
+	font-family: "黑体";
+	font-size: 14px;
+	text-align: center;
+	color: #01AFBE;
+	margin-top: -12px;
+}
+.leader ul{
+        	list-style-type:none;  	
+        }
+        .leader li{
+        	display: inline;
+        	float: none;
+        	color:#01afbe;
+        }
+        .leader li a{
+        	color:#01afbe;
+        }
+		.leader nav{
+			text-align: center;
+		}

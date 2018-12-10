@@ -1,0 +1,201 @@
+#userlogin_body {
+	padding-right: 0px; padding-left: 0px; background: url(../img/user_all_bg.gif) #226cc5 repeat-x 50% top; padding-bottom: 0px; margin: 110px 0px 0px; font: 12px/150% arial, "宋体" ,helvetica,sans-serif; padding-top: 0px; text-decoration: none
+}
+#user_login {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+#user_top {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+#user_main {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+#user_bottom {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+#user_login dl {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+#user_login dd {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+#user_top {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+#user_main {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+#user_bottom {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+#user_top ul {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+#user_main ul {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+#user_bottom ul {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+#user_top li {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+#user_main li {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+#user_bottom li {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+form {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+#user_login {
+	margin: 0px auto; width: 590px
+}
+#user_top {
+	clear: both
+}
+#user_main {
+	clear: both
+}
+#user_bottom {
+	clear: both
+}
+#user_top li {
+	float: left; list-style-type: none
+}
+#user_main li {
+	float: left; list-style-type: none
+}
+#user_bottom li {
+	float: left; list-style-type: none
+}
+.user_top_r {
+	background: url(../img/user_top_r.gif) no-repeat 50% top
+}
+.user_top_c {
+	background: url(../img/user_top_c.gif) no-repeat 50% top
+}
+.user_top_l {
+	background: url(../img/user_top_l.gif) no-repeat 50% top
+}
+.user_main_r {
+	background: url(../img/user_main_r.gif) #bec5cc no-repeat 50% top
+}
+.user_main_c {
+	background: url(../img/user_main_c.gif) #bec5cc no-repeat 50% top; width: 280px
+}
+.user_main_l {
+	background: url(../img/user_main_l.gif) #bec5cc no-repeat 50% top
+}
+.user_bottom_r {
+	background: url(../img/user_bottom_r.gif) no-repeat 50% top
+}
+.user_bottom_c {
+	background: url(../img/user_bottom_c.gif) no-repeat 50% top; color: #fff; line-height: 117px; padding-top: 20px; text-align: right
+}
+.user_bottom_c a {
+	color: yellow; text-decoration: underline
+}
+.user_bottom_c a:hover {
+	color: #c00
+}
+.user_bottom_l {
+	background: url(../img/user_bottom_l.gif) no-repeat 50% top
+}
+.user_top_r {
+	float: left; width: 180px
+}
+.user_main_r {
+	float: left; width: 180px
+}
+.user_bottom_r {
+	float: left; width: 180px
+}
+user_main_c {
+	float: left; width: 280px
+}
+.user_top_c {
+	float: left; width: 280px
+}
+.user_bottom_c {
+	float: left; width: 280px
+}
+.user_top_l {
+	float: left; width: 129px
+}
+.user_main_l {
+	float: left; width: 129px
+}
+.user_bottom_l {
+	float: left; width: 129px
+}
+.user_top_r {
+	height: 116px
+}
+.user_top_c {
+	height: 116px
+}
+.user_top_l {
+	height: 116px
+}
+.user_main_r {
+	height: 139px
+}
+.user_main_c {
+	height: 139px
+}
+.user_main_l {
+	height: 139px
+}
+.user_main_r {
+	line-height: 139px
+}
+.user_bottom_r {
+	height: 117px
+}
+.user_bottom_c {
+	height: 117px
+}
+.user_bottom_l {
+	height: 117px
+}
+.user_main_box {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+.user_main_box ul {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+.user_main_box li {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+.user_main_box ul {
+	clear: both
+}
+.user_main_box li {
+	float: left; list-style-type: none
+}
+.user_main_box .user_main_text {
+	line-height: 34px; height: 34px
+}
+.user_main_box .user_main_input {
+	line-height: 34px; height: 34px
+}
+.user_main_box .user_main_text {
+	width: 60px; color: #000
+}
+.user_main_box .user_main_input img {
+	margin-bottom: -2px; margin-left: -25px
+}
+.txtusernamecssclass {
+	border-top-width: 0px; padding-left: 25px; border-left-width: 0px; background: url(../img/user_login_name.gif) no-repeat; border-bottom-width: 0px; width: 165px; line-height: 20px; height: 21px; border-right-width: 0px
+}
+.txtpasswordcssclass {
+	border-top-width: 0px; padding-left: 25px; border-left-width: 0px; background: url(../img/user_login_password.gif) no-repeat; border-bottom-width: 0px; width: 165px; line-height: 20px; height: 21px; border-right-width: 0px
+}
+.txtvalidatecodecssclass {
+	border-top-width: 0px; padding-left: 25px; border-left-width: 0px; background: url(../img/user_login_validatecode.gif) no-repeat; ime-mode: disabled; border-bottom-width: 0px; width: 91px; line-height: 20px; height: 21px; border-right-width: 0px
+}
+.ibtnentercssclass {
+	width: 111px; height: 122px
+}

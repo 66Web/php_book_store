@@ -1,0 +1,10 @@
+.lead ul{
+	margin:0px;
+	list-style:none;
+}
+.lead{
+	float: right;
+}
+.lead li{
+	padding-top: 20px;
+}

@@ -1,0 +1,519 @@
+@charset "utf-8";
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+.w1800 {
+  margin: 0 auto;
+  width: 1800px;
+  height: 100%;
+}
+@-webkit-keyframes myrotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes myrotate {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-ms-keyframes myrotate {
+  0% {
+    -ms-transform: rotate(0deg);
+  }
+  100% {
+    -ms-transform: rotate(360deg);
+  }
+}
+@keyframes myrotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.pcindex .first {
+  background-color: #00AFBE;
+  height: 100%;
+  width: 100%;
+}
+.pcindex .first .container {
+  position: relative;
+}
+.pcindex .first .vline {
+  height: 60%;
+  width: 2px;
+  *width: 4px;
+  /*background-color: #FFFFFF;*/
+  margin: 0 auto;
+  /*border: 1px solid #FFFFFF;
+  border-style: none solid none solid;*/
+}
+.pcindex .first .phonesblock {
+  width: 49%;
+  height: 80%;
+  background-color: inherit;
+  background-color: transparent;
+  float: left;
+  position: absolute;
+  bottom: 0;
+}
+.pcindex .first .phonesblock .phones {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+.pcindex .first .phonesblock .phones .phone1,
+.pcindex .first .phonesblock .phones .phone2 {
+  opacity: 0;
+}
+.pcindex .first .phonesblock .phones .phone1 {
+  float: left;
+  width: 50%;
+  position: relative;
+}
+.pcindex .first .phonesblock .phones .phone2 {
+  float: right;
+  width: 45%;
+  position: relative;
+  right: 20%;
+}
+.pcindex .first .downblock {
+  width: 50%;
+  height: 100%;
+  float: right;
+  background-color: inherit;
+  background-color: transparent;
+  position: relative;
+}
+.pcindex .first .downblock .downwrap {
+  height: 70%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.pcindex .first .downblock .downwrap .down {
+  display: none;
+}
+.pcindex .first .star {
+  opacity: 0;
+  width: 10%;
+  height: 30%;
+  background-color: transparent;
+  background-color: inherit;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 0;
+  text-align: center;
+  left: 30%;
+  top: 0;
+}
+.pcindex .first .star img {
+  position: relative;
+  bottom: 10%;
+  height: 50%;
+  max-width: 100%;
+  margin: 0 auto;
+  -webkit-animation: myrotate 5s infinite linear;
+  animation: myrotate 15s infinite linear;
+}
+.pcindex .first .star img:hover {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+.pcindex .first .androiddown {
+  position: absolute;
+}
+.pcindex .first .androiddown:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 255, 0.18);
+}
+.pcindex .second {
+  background-color: #e1f2f4;
+}
+.pcindex .second .vline {
+  height: 60%;
+  width: 2px;
+  *width: 4px;
+  background-color: #01AFBE;
+  margin: 0 auto;
+}
+.pcindex .second .container {
+  position: relative;
+}
+.pcindex .second .hablock {
+  width: 65%;
+  background-color: transparent;
+  background-color: inherit;
+  height: 80%;
+  float: left;
+  position: absolute;
+  bottom: 0;
+}
+.pcindex .second .hablock .starmoon {
+  display: none;
+  height: 20%;
+  margin: 0 auto;
+  position: relative;
+}
+.pcindex .second .hablock .starmoon img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.pcindex .second .hablock .help {
+  height: 40%;
+  width: 100%;
+  position: relative;
+}
+.pcindex .second .hablock .help img#help {
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.pcindex .second .hablock .help .pop4 {
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+.pcindex .second .hablock .help .pop4 img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.pcindex .second .hablock .answer {
+  height: 40%;
+  width: 100%;
+  position: relative;
+}
+.pcindex .second .hablock .answer .answers {
+  height: 50%;
+  width: 100%;
+  position: relative;
+}
+.pcindex .second .hablock .answer .answers .pop1,
+.pcindex .second .hablock .answer .answers .pop2,
+.pcindex .second .hablock .answer .answers .pop3 {
+  height: 100%;
+  width: 32%;
+  position: absolute;
+}
+.pcindex .second .hablock .answer .answers .pop1 img,
+.pcindex .second .hablock .answer .answers .pop2 img,
+.pcindex .second .hablock .answer .answers .pop3 img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.pcindex .second .hablock .answer .pillows {
+  position: absolute;
+  bottom: 0;
+  height: 50%;
+  width: 100%;
+}
+.pcindex .second .hablock .answer .pillows img {
+  height: 70%;
+  display: block;
+  margin: 0 auto;
+}
+.pcindex .second .yewenblock {
+  width: 35%;
+  height: 100%;
+  float: right;
+  display: table;
+}
+.pcindex .second .yewenblock .yewen {
+  display: table-cell;
+  vertical-align: middle;
+}
+.pcindex .second .yewenblock .yewen .title {
+  font-family: "黑体";
+  color: #01AFBE;
+  font-size: 24px;
+  font-weight: 600;
+}
+.pcindex .second .yewenblock .yewen .content {
+  font-family:"黑体";
+  font-size: 24px;
+}
+.pcindex .second .ball {
+  position: absolute;
+  right: 10%;
+  top: 0;
+  z-index: 0;
+  width: 12%;
+  height: 30%;
+  background-color: transparent;
+  background-color: inherit;
+  margin: 0 auto;
+  text-align: center;
+}
+.pcindex .second .ball img {
+  position: relative;
+  bottom: 1px;
+  height: 40%;
+  max-width: 100%;
+  margin: 0 auto;
+  -webkit-animation: myrotate 5s infinite linear;
+  animation: myrotate 5s infinite linear;
+}
+.pcindex .second .ball img:hover {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+.pcindex .third {
+  background-color: #a6d7db;
+}
+.pcindex .third .vline {
+  height: 60%;
+  width: 2px;
+  /*background-color: #FFFFFF;*/
+  margin: 0 auto;
+}
+.pcindex .third .goodnight {
+  background-color: inherit;
+  background-color: transparent;
+  width: 55%;
+  height: 100%;
+  float: right;
+}
+.pcindex .third .goodnight .hearttalk {
+  width: 100%;
+  height: 88%;
+  margin-top: 10%;
+  position: relative;
+}
+.pcindex .third .goodnight .hearttalk img.talk {
+  max-width: 900px;
+  width: 80%;
+}
+.pcindex .third .goodnight .hearttalk img.gn {
+  position: absolute;
+}
+.pcindex .third .yehuablock {
+  background-color: #a6d7db;
+  width: 45%;
+  height: 100%;
+  float: left;
+  display: table;
+}
+.pcindex .third .yehuablock .yehua {
+  display: table-cell;
+  vertical-align: middle;
+}
+.pcindex .third .yehuablock .yehua .title {
+  font-family: "黑体";
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.pcindex .third .yehuablock .yehua .content {
+  font-family: "黑体";
+  font-size: 24px;
+  text-align: right;
+}
+.pcindex .third .smile {
+  position: absolute;
+  left: 10%;
+  top: 0;
+  z-index: 0;
+  width: 12%;
+  height: 30%;
+  background-color: transparent;
+  background-color: inherit;
+  margin: 0 auto;
+  text-align: center;
+}
+.pcindex .third .smile img {
+  position: relative;
+  bottom: 1px;
+  height: 40%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.pcindex .fourth {
+  background-color: #c7e8f1;
+}
+.pcindex .fourth .vline {
+  height: 60%;
+  width: 2px;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+}
+.pcindex .fourth .container {
+  position: relative;
+}
+.pcindex .fourth .connblock {
+  width: 60%;
+  background-color: transparent;
+  background-color: inherit;
+  height: 80%;
+  float: left;
+  position: absolute;
+  bottom: 0;
+}
+.pcindex .fourth .connblock .connection {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.pcindex .fourth .connblock .connection .bg1,
+.pcindex .fourth .connblock .connection .bg2 {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.pcindex .fourth .connblock .connection .bg1 img,
+.pcindex .fourth .connblock .connection .bg2 img {
+  width: 100%;
+}
+.pcindex .fourth .connblock .connection .connwrap {
+  margin: 0 auto;
+  text-align: center;
+
+  position: relative;
+}
+.pcindex .fourth .connblock .connection .f1b {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.pcindex .fourth .connblock .connection .f1b .f1 {
+  height: 100%;
+}
+.pcindex .fourth .connblock .connection .f2b {
+  overflow: hidden;
+  width: 32%;
+  height: 80%;
+  float: left;
+  position: absolute;
+  left: 18%;
+  bottom: 0;
+}
+.pcindex .fourth .connblock .connection .f2b .f2 {
+  width: 200%;
+}
+.pcindex .fourth .connblock .connection .f3b {
+  overflow: hidden;
+  width: 32%;
+  height: 80%;
+  float: right;
+  position: absolute;
+  right: 18%;
+  bottom: 0;
+}
+.pcindex .fourth .connblock .connection .f3b .f3wrap {
+  position: relative;
+  right: 100%;
+  width: 200%;
+}
+.pcindex .fourth .connblock .connection .f3b .f3wrap .f3 {
+  width: 100%;
+  display: block;
+  position: absolute;
+  right: 0;
+}
+.pcindex .fourth .fujinblock {
+  width: 39%;
+  height: 100%;
+  float: right;
+  display: table;
+}
+.pcindex .fourth .fujinblock .fujin {
+  display: table-cell;
+  vertical-align: middle;
+}
+.pcindex .fourth .fujinblock .fujin .title {
+  font-family: ;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 600;
+}
+.pcindex .fourth .fujinblock .fujin .content {
+  font-family:"黑体";
+  font-size: 24px;
+}
+.pcindex .fourth .loc {
+  position: absolute;
+  left: 60%;
+  top: 0;
+  z-index: 0;
+  width: 12%;
+  height: 30%;
+  background-color: transparent;
+  background-color: inherit;
+  margin: 0 auto;
+  text-align: center;
+}
+.pcindex .fourth .loc img {
+  position: relative;
+  bottom: 1px;
+  height: 40%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.pcindex .fourth .about {
+  height: 2000px;
+  background-color: red;
+}
+.pcindex .fifth .aboveblock {
+  height: 70%;
+  background-color: #01AFBE;
+}
+.pcindex .fifth .aboveblock .above {
+  height: 30%;
+}
+.pcindex .fifth .aboveblock .center {
+  height: 70%;
+  overflow: hidden;
+}
+.pcindex .fifth .aboveblock .center .housewrap {
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.pcindex .fifth .aboveblock .center .housewrap .cloud {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.pcindex .fifth .aboveblock .center .housewrap .cloud img {
+  width: 100%;
+  height: 100%;
+}
+.pcindex .fifth .aboveblock .center .housewrap .lunar {
+  position: absolute;
+}
+.pcindex .fifth .aboveblock .center .housewrap .lunar img {
+  width: 100%;
+  height: 100%;
+}
+.pcindex .fifth .footer {
+  height: 30%;
+  background-color: #027d88;
+  font-family: "黑体";
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 20px;
+  
+}
+

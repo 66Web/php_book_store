@@ -1,0 +1,40 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: 微软雅黑;
+}
+
+a{
+	text-decoration: none;
+	background: #01AFBE;
+	color:#fff;
+	border-radius:5px;
+	padding:5px;
+}
+
+.main{
+	padding-left:15px;
+	padding-top:30px;
+}
+
+.main table{
+	width:98%;
+	border:1px dashed #888;
+	border-collapse:collapse;
+}
+
+.main td,.main th{
+	border:1px dashed #888;
+	text-align: center;
+	height:40px;
+}
+
+.main form{
+	border:1px dashed #888;
+	padding:30px;
+	margin-right:15px;
+}
+
+.main form p{
+	margin-bottom:10px;
+}

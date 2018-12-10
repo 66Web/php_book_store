@@ -1,0 +1,174 @@
+#fabu{
+	background: url(../img/信封.png) no-repeat center;
+	background-size: auto 100%;
+	width: auto;
+	height:550px;
+	margin-top: 20px;
+	text-align: center;
+	font-family: "黑体";
+	
+}
+.left-name{
+	float: left;
+	position: absolute;
+	left: 23%;
+	top: 23%;
+}
+.right-name{
+	float: left;
+	border:1px solid #e1e1e1;
+	width: 160px;
+	height: 30px;
+	position: absolute;
+	left: 27%;
+	top: 23%;
+
+}
+.left-writer{
+	float: left;
+	position: absolute;
+	left: 23%;
+	top: 33%;
+}
+.right-writer{
+	float: left;
+	border:1px solid #e1e1e1;
+	width: 160px;
+	height: 30px;
+	position: absolute;
+	left: 27%;
+	top: 33%;
+}
+.left-oprice{
+	float: left;
+	position: absolute;
+	left: 23%;
+	top: 43%;
+}
+.right-oprice{
+	float: left;
+	border:1px solid #e1e1e1;
+	width: 160px;
+	height: 30px;
+	position: absolute;
+	left: 27%;
+	top: 43%;
+}
+.left-nprice{
+	float: left;
+	position: absolute;
+	left: 23%;
+	top: 53%;
+}
+.right-nprice{
+	float: left;
+	border:1px solid #e1e1e1;
+	width: 160px;
+	height: 30px;
+	position: absolute;
+	left: 27%;
+	top: 53%;
+}
+.left-stock{
+	float: left;
+	position: absolute;
+	left: 23%;
+	top: 63%;
+}
+.right-stock{
+	float: left;
+	border:1px solid #e1e1e1;
+	width: 160px;
+	height: 30px;
+	position: absolute;
+	left: 27%;
+	top: 63%;
+}
+.left-num{
+	float: left;
+	position: absolute;
+	left: 23%;
+	top: 73%;
+}
+.right-num{
+	float: left;
+	border:1px solid #e1e1e1;
+	width: 160px;
+	height: 30px;
+	position: absolute;
+	left: 27%;
+	top: 73%;
+}
+.left-huojia{
+	float: left;
+	position: absolute;
+	left: 43%;
+	top: 23%;
+}
+.right-huojia{
+	float: left;
+	width: 160px;
+	height: 30px;
+	position: absolute;
+	left: 45%;
+	top: 23%;
+
+}
+.left-leibie{
+	float: left;
+	position: absolute;
+	left: 43%;
+	top: 33%;
+}
+.right-leibie{
+	float: left;
+	width: 160px;
+	height: 30px;
+	position: absolute;
+	left: 44%;
+	top: 33%;
+
+}
+.left-img{
+	float: left;
+	position: absolute;
+	left: 43%;
+	top: 43%;
+}
+.right-img{
+	float: left;
+	width: 160px;
+	height: 30px;
+	position: absolute;
+	left: 47%;
+	top: 43%;
+
+}
+.left-jianjie{
+	float: left;
+	position: absolute;
+	left: 43%;
+	top: 53%;
+}
+.right-jianjie{
+	float: left;
+	width: 220px;
+	height: 160px;
+	position: absolute;
+	left: 47%;
+	top: 53%;
+
+}
+.commit{
+	float: right;
+	position: absolute;
+	right: 22%;
+	top: 50%;
+	width:50px;
+	height: 50px;
+	background: transparent;
+	
+}
+.commit{
+	color: #FFFFFF;
+}

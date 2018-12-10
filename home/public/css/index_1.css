@@ -1,0 +1,134 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+container{
+	width:100%!important;
+}
+.logo{
+	position: absolute;
+	left: 37%;
+}
+#text{
+	text-align:right;
+	font-family: "黑体";
+	font-size: 14px;
+	color: #01AFBE !important;
+}
+#search{
+	width:100%;
+	text-align: center;
+	background: url(../img/搜索背景.png) no-repeat center;
+	padding: 80px;	
+	margin: 0px;
+}
+.sbtn{
+	width: 30px;
+	height: 30px;
+	background: url(../img/搜索按钮前.png) no-repeat center;
+	border: none;
+}
+.sbtn:hover{
+	background:url(../img/搜索按钮后.png);
+}
+.kuang{
+	background-color:transparent;
+	border: none;
+	width: 400px;
+	height: 30px;
+	margin-left: 25px;
+	margin-right: 20px;
+	margin-top: 5px;
+	font-family: "黑体";
+}
+.kuang:focus{
+	outline:none;
+    border: 2px solid white;
+}
+
+input::-webkit-input-placeholder { /* WebKit browsers */ 
+	color: white; 
+} 
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+	color: white; 
+} 
+input::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+	color: white; 
+} 
+input:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+	color: white; 
+} 
+
+.daohang{
+	height:60px;
+	width: 100%;
+    background:url(../img/导航背景.png) no-repeat center;
+    margin-top: 10px;
+}
+      
+        .daohang ul{
+        	list-style-type:none;      	
+        }
+        .daohang li{
+        	display: inline;
+        	float: none;
+        	padding-left: 10px;
+        }
+		.daohang nav{
+			text-align: center;
+		}
+		
+.wenzi{
+	font-family: "黑体";
+	color: #00afbe;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-left: 70px;
+}
+
+.tuijianz{
+	margin-left: 15px;
+	margin-top: -20px;
+}
+.tuijian:hover{
+	box-shadow: 2px 2px 2px #9b9b9b;
+	-webkit-box-shadow: 2px 2px 2px #9b9b9b;
+	transform: scale(0.9,0.9);
+}
+.tuijian{
+	background: #e5f7f8;
+	width: 350px;
+	height: 400px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.tuijian-top{
+	background:url(../img/推荐.png);
+	width: 350px;
+	height: 200px;
+}
+.tuijian-book{
+	background:url(../img/素色锦年.jpg) no-repeat center;
+	width: 170px;
+	height: 220px;
+	margin-left: 90px;
+	-webkit-box-shadow: 2px 2px 2px #737373;
+   	-moz-box-shadow:2px 2px 2px #737373;
+    box-shadow: 2px 2px 2px #737373;
+}
+.tuijian-wenzi{
+	margin: 20px 30px;
+}
+.tuijian-wenzi1{
+	display: inline-block;
+	float: left;
+	font-family: "黑体";
+	color: #96acac;
+}
+.tuijian-wenzi2{
+	display: inline-block;
+	float: left;
+	font-family: "黑体";
+	color: #000000;
+}

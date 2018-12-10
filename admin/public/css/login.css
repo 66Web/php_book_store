@@ -1,0 +1,54 @@
+body{
+	background: url(../img/登陆背景.jpg) no-repeat center;
+}
+#userlogin_body{
+	width: 1024px;
+	height: 402px;
+	margin-top: 150px;
+}
+.text{
+	color: #01AFBE;
+	margin: 20px 160px;
+	font-family: "仿宋";
+}
+.top{
+	float: right;
+	margin-top: -50px;	
+}
+.user{
+	color: #016169;
+}
+.pas{
+	color: #016169;
+}
+.txtusernamecssclass{
+	width: 200px;
+	height: 35px;
+	border: 2px solid #01AFBE;
+	border-radius: 5px;
+}
+.txtpasswordcssclass{
+	width: 200px;
+	height: 35px;
+	border: 2px solid #01AFBE;
+	border-radius: 5px;
+}
+
+
+.foot{
+	float: left;
+	margin-top: 50px;
+	margin-left: 817px;
+	width: 205px;
+	height: 40px;
+	line-height: 40px;
+	background:#01AFBE;
+	text-align: center;
+	border-radius: 5px;
+}
+.ibtnentercssclass{
+	color: white;
+	font-family: "黑体";
+	font-size: 15px;
+	font-weight: bolder;
+}

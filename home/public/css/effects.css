@@ -1,0 +1,139 @@
+/* general styling for all the hovers */
+	
+.hover {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hover .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.hover img {
+  display: block;
+  position: relative;
+}
+
+.hover h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hover button.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+.hover button.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+/* styling to remove box shadow and border from buttons for last few effects */
+
+.hover button.nullbutton {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.hover button.nullbutton:hover {
+  box-shadow: none;
+}
+
+/* remove the blue line that shows on modal buttons after you have open and close a modal */
+
+.modal-open .modal, button:focus {
+    outline:none!important
+}
+
+/* styling so when hovering over a div that opens a modal the cursor changes to a pointer */
+.point {
+cursor: pointer;
+}
+
+/* effect 13 */
+
+
+
+.ehover13 img
+{
+transition: all 0.35s;/*过渡属性*/
+}
+
+.ehover13:hover img
+{
+filter: brightness(0.6); /*filter 属性定义了元素(通常是<img>)的可视效果(例如：模糊与饱和度)。*/
+-webkit-filter: brightness(0.6);
+}
+
+.ehover13 .overlay {
+	width: 80%;
+	height: 80%;
+	left: 10%;
+	top: 10%;
+	border-bottom: 1px solid #FFF;
+	border-top: 1px solid #FFF;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+
+
+.ehover13:hover .overlay {
+	opacity: 1; /*设置一个div元素的透明度级别：*/
+	-webkit-transform: scale(1);
+	transform: scale(1);/*缩放*/
+	
+}
+
+.ehover13 button {
+	color:	#FFF;
+	padding: 1em 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}
+
+.ehover13 h2 {
+	background-color: transparent;
+	color:	#FFF;
+	padding: 1em 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,-100%,0);
+	transform: translate3d(0,-100%,0);
+}
+
+
+
+.ehover13:hover button, .ehover13:hover h2{
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
